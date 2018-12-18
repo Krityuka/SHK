@@ -1,0 +1,66 @@
+<h1 class="display-2">My orders</h1>
+
+<status-filter [status]="selectedStatus" (onChange)="onFilterChange($event)"></status-filter>
+<!--
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col" colspan="2">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let request of filteredRequests" (click)="onSelectRequest(request)" [class.table-info]="request === selectedRequest">
+      <th scope="row">{{ request.id }}</th>
+      <td *ngIf="authService.user.username=='admin'"><a [routerLink]="['/requests', request.id]">{{ request.title }}</a></td>
+	  <td *ngIf="authService.user.username!='admin'">{{ request.title }}</td>
+      <td>
+          {{ request.description }}
+      </td>
+      <td>{{ request.status }}</td>
+      <td *ngIf="authService.user.username=='admin'">
+        <button mat-raised-button color="primary" (click)="onDeleteClick(request.id)">Delete</button>
+		<button mat-raised-button color="primary" (click)="onProgressClick(request)">Order is in progress</button>
+		<button mat-raised-button color="primary" (click)="onReadyClick(request)">Order is Ready</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+-->
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Food Name</th>
+      <th scope="col">Note</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let request of filteredRequests">
+      <th scope="row">{{ request.id }}</th>
+      <td *ngIf="authService.user.username=='admin'"><a [routerLink]="['/requests', request.id]">{{ request.title }}</a></td>
+	  <td *ngIf="authService.user.username!='admin'">{{ request.title }}</td>
+      <td>{{ request.description }}</td>
+      <td>{{ request.status }}</td>
+	  <td *ngIf="authService.user.username=='admin'">
+        <button mat-raised-button color="primary" (click)="onDeleteClick(request.id)">Delete</button>
+		<button mat-raised-button color="primary" (click)="onProgressClick(request)">Order is in progress</button>
+		<button mat-raised-button color="primary" (click)="onReadyClick(request)">Order is Ready</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--
+<div class="card" *ngFor="let request of filteredRequests">
+  <h5 class="card-header">Order #{{ request.id }}</h5>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+-->
+<!--Selected request: {{ selectedRequest | json }}-->

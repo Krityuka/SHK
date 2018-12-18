@@ -1,0 +1,17 @@
+<form (submit)="submit(requestForm)" #requestForm="ngForm">
+  <div class="form-group">
+    <!-- <small id="descriptionHelp" class="form-text text-muted">The error details</small> -->
+    <mat-form-field>
+      <textarea name="title" [(ngModel)]="model.title" matInput aria-describedby="titleHelp" placeholder="Enter title"></textarea>
+    </mat-form-field>
+  </div>
+  
+  <div class="form-group">
+    <!-- <small id="descriptionHelp" class="form-text text-muted">The error details</small> -->
+    <mat-form-field>
+      <textarea name="description" [(ngModel)]="model.description" matInput aria-describedby="descriptionHelp" placeholder="Enter request details"></textarea>
+    </mat-form-field>
+  </div>
+  
+  <button [disabled]="!requestForm.valid" type="submit" mat-raised-button color="primary">Save Order</button>
+</form>
