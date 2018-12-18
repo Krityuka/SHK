@@ -1,0 +1,17 @@
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\repositories\UserRepository.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\security\AuthenticatedUser.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\security\WebSecurityConfig.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\controllers\UserController.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\security\MyUserDetailsService.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\controllers\MessageController.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\controllers\RequestController.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\entities\User.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\repositories\MessageRepository.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\OrderHandlerApplication.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\security\CustomBasicAuthenticationEntryPoint.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\entities\Message.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\entities\Request.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\controllers\LabelController.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\entities\Label.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\repositories\RequestRepository.java
+C:\Users\Krityu\Desktop\orderhandler_webapp_v2\backend\src\main\java\hu\elte\orderhandler\repositories\LabelRepository.java
